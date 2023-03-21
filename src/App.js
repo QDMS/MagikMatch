@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import SingleCard from "./components/SingleCard";
-import {Adsense} from '@ctrl/react-adsense';
+import AdSense from 'react-adsense';
 
 const cardImages = [
   { src: "/img/1.png", matched: false },
@@ -133,7 +133,7 @@ function App() {
       </div>
       <p className="turns">Turns: {turns}</p>
       <h3 className="turns">Created By: Qujuan Miller</h3>
-      <Adsense
+      <AdSense.Google
   client="ca-pub-8397585981018540"
   slot="5321244282"
   style={{ display: 'block' }}
