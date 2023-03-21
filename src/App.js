@@ -131,7 +131,7 @@ function App() {
         ))}
       </div>
       <p className="turns">Turns: {turns}</p>
-      <h3>Created By: Qujuan Miller</h3>
+      <h3 className="turns">Created By: Qujuan Miller</h3>
     </div>
   );
 }
